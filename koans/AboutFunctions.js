@@ -105,7 +105,7 @@ describe("About Functions", function() {
     };
 
     //weird multiply setting, cannot figure out why the test is not being passed
-    expect(multiply.toString()).toBe(multiply.toString()
+    expect(multiply.toString()).toBe(multiply.toString());
     //'function (a, b) {\n  //An internal comment\n  return a * b;\n}' prints the same thing, 
     /*
     	the code below answers the questions correctly, but is not read by the Koans tests
